@@ -15,9 +15,9 @@ A stack data type is analogous to a stack of dinner plates. Each one sits atop t
 ```
 function MyFunc(n) { 
 
-If (n === 1) return n; 
+  if (n === 1) return n; 
 
-return n + MyFunc(n-1); 
+  return n + MyFunc(n-1); 
 
 }
 ```
