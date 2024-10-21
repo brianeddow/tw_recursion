@@ -50,7 +50,7 @@ The part after the return keyword declares how the stack should handle values re
 
 This recursive call tells the stack to multiply return values after hitting the base case. It also dictates that recursive calls will be supplied with half the n value of the previous call. 
 
-`MyFunc(60) → MyFunc(30) → MyFunc(15)`
+`MyFunc(60) → MyFunc(30) → MyFunc(15)`  
 
 
 Happy coding! 
